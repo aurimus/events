@@ -6,13 +6,15 @@
 #if Meteor.isServer
 #  Meteor.startup ->
 #  # code to run on server at startup
+#
+#
 
 
 #
-# Router config
+# Router
 #
 Router.configure
-layoutTemplate: 'layout'
+  layoutTemplate: 'layout'
 
 Router.map ->
   @route 'map',
