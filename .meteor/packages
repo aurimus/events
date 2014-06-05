@@ -9,3 +9,5 @@ insecure
 coffeescript
 bootstrap
 leaflet
+bootstrap-3
+iron-router
