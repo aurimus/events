@@ -1,4 +1,13 @@
 
+#
+# List
+#
+Template.map.listDots = ->
+  Events.find()
+
+#
+# Map
+#
 window.map = null
 
 Template.map.rendered = ->
